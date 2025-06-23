@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif; /* Menggunakan font minimalis */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Memastikan container di tengah vertikal */
+    background: url('https://w.wallhaven.cc/full/7j/wallhaven-7jgyre.jpg') no-repeat center center fixed; /* Gambar latar belakang */
+    background-size: cover; /* Memastikan gambar menutupi seluruh area */
+    color: #fff; /* Warna teks putih agar kontras dengan latar gelap */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* Efek bayangan teks agar lebih terbaca */
+}
+
+.portfolio-container {
+    background-color: rgba(0, 0, 0, 0.7); /* Overlay gelap transparan agar teks lebih mudah dibaca */
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 600px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Bayangan untuk efek kedalaman */
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #FFD700; /* Warna aksen keemasan */
+}
+
+.info-section {
+    margin-bottom: 25px;
+}
+
+.info-section h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #ADD8E6; /* Warna aksen biru muda */
+}
+
+.info-section p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+footer {
+    margin-top: 30px;
+    font-size: 0.9em;
+    opacity: 0.8;
+}
+
+/* Responsiveness dasar */
+@media (max-width: 768px) {
+    .portfolio-container {
+        padding: 30px;
+        margin: 20px;
+    }
+
+    header h1 {
+        font-size: 2.5em;
+    }
+
+    .info-section h2 {
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width: 480px) {
+    .portfolio-container {
+        padding: 20px;
+    }
+
+    header h1 {
+        font-size: 2em;
+    }
+
+    .info-section h2 {
+        font-size: 1.3em;
+    }
+}
